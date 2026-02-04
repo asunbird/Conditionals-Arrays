@@ -177,10 +177,13 @@ function newManu () {
  }
 newManu();
 console.log(restaurantMenuItems);
-
-
+// Output:
+// [ [ 'cookies ', 'cheescake ', 'ice-cream', 'brownie' ] ]
 
 
 // Exercise - 14.
+let newMenuItems = ["grilled_salmon", "steak", "mashed_potatoes"];
+newMenuItems.unshift("bread");
+console.log(newMenuItems);
 
-// ...
+// Output: [ 'bread', 'grilled_salmon', 'steak', 'mashed_potatoes' ]
