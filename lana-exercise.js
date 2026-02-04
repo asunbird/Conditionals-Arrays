@@ -67,6 +67,21 @@ console.log(gradeScore(60)); // Output: Average
 console.log(gradeScore(40)); // Output: Fail
 
 // Exercise - 6.
+function weatherMessage(temperature) {
+    if (temperature < 0) {
+        return "Very cold";
+    } else if (temperature >= 0 && temperature <= 15) {
+        return "Cold";
+    } else if (temperature >= 16 && temperature <= 25) {
+        return "Warm";
+    } else if (temperature > 25) {
+        return "Hot";
+    }
+}
+console.log(weatherMessage(-5));  // Output: Very cold
+console.log(weatherMessage(10));  // Output: Cold
+console.log(weatherMessage(20));  // Output: Warm
+console.log(weatherMessage(30));  // Output: Hot
 
 // Exercise - 7.
 
