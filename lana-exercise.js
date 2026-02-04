@@ -215,3 +215,15 @@ function printArrayIf(newMenuItems) {
 }
 printArrayIf(newMenuItems);
 // Output: The menu does not include broccoli
+
+let oldMenu = [];
+let someItem = "souffle";
+function addMenuItems(oldMenu) {
+    if (oldMenu.includes(someItem)) {
+        return oldMenu;
+        } else {
+        oldMenu.push(someItem);
+        return oldMenu; 
+    }
+}
+console.log(addMenuItems(oldMenu)); // Output: [ 'souffle' ]
