@@ -187,3 +187,31 @@ newMenuItems.unshift("bread");
 console.log(newMenuItems);
 
 // Output: [ 'bread', 'grilled_salmon', 'steak', 'mashed_potatoes' ]
+
+// Bonus task.
+
+function printItems(newMenuItems) {
+
+    for (let i = 0; i < newMenuItems.length; i++) {
+        console.log(newMenuItems[i]);
+    }
+    
+  }
+printItems(newMenuItems);
+
+// Output:
+// bread
+// grilled_salmon
+// steak
+// mashed_potatoes);
+
+function printArrayIf(newMenuItems) {
+    let itemName = "broccoli";
+  if (newMenuItems.includes(itemName)) {
+    console.log("The menu includes " + itemName);
+  } else {
+    console.log("The menu does not include " + itemName);
+  }
+}
+printArrayIf(newMenuItems);
+// Output: The menu does not include broccoli
