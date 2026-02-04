@@ -137,8 +137,8 @@ printMenu2(restaurantMenu[1]);
 
 // Exercise - 10. Accessing specific items in a 2D array
 const restaurantMenuItems = [
-    ["pizza", "beef ", "salad ", "soup"],
-    ["cookies ", "cheescake ", "ice-cream"],
+    ["pizza", "beef ", "salad ", "soup", "hummus"],
+    ["cookies ", "cheescake ", "ice-cream", "brownie"],
 ];
 console.log(restaurantMenuItems[0][0]); // Output: pizza
 console.log(restaurantMenuItems[1][2]); // Output: ice-cream
@@ -147,18 +147,39 @@ console.log(restaurantMenuItems[1][2]); // Output: ice-cream
 // Exercise - 11.
 restaurantMenuItems.push(["cream soup"]);
 console.log(restaurantMenuItems); 
-// Output: [[ 'pizza', 'beef ', 'salad ', 'soup' ], [ 'cookies ', 'cheescake ', 'ice-cream' ], [ 'cream soup' ]]
+// Output:
+// [
+//   [ 'pizza', 'beef ', 'salad ', 'soup', 'hummus' ],
+//   [ 'cookies ', 'cheescake ', 'ice-cream', 'brownie' ],
+//   [ 'cream soup' ]
+// ]
 
 
 // Exercise - 12.
-let removedItem = "";
-removedItem = restaurantMenuItems.pop();
-console.log(removedItem);
-
-
+console.log(restaurantMenuItems.pop());
+// Output: [ 'cream soup' ]
 
 
 // Exercise - 13.
+console.log(restaurantMenuItems); // Output:
+// [
+//   [ 'pizza', 'beef ', 'salad ', 'soup', 'hummus' ],
+//   [ 'cookies ', 'cheescake ', 'ice-cream', 'brownie' ]
+// ]
+
+// console.log(restaurantMenuItems.shift()); / Print deleted item
+// Output: [ 'pizza', 'beef ', 'salad ', 'soup', 'hummus' ]
+
+// Remove the first item from menuItems and print the updated array.
+function newManu () {
+    restaurantMenuItems.shift();
+    return restaurantMenuItems;
+ }
+newManu();
+console.log(restaurantMenuItems);
+
+
+
 
 // Exercise - 14.
 
