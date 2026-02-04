@@ -84,6 +84,16 @@ console.log(weatherMessage(20));  // Output: Warm
 console.log(weatherMessage(30));  // Output: Hot
 
 // Exercise - 7.
+function canAccess(age, hasPermission) {
+    if (age >= 18 && hasPermission === true) {
+        return "Access granted";
+    } else {
+        return "Access denied";
+    }
+}
+console.log(canAccess(28, false));  // Output: Access denied
+console.log(canAccess(17, true));  // Output: Access denied
+console.log(canAccess(23, true)); // Output: Access granted
 
 // Exercise - 8.
 
