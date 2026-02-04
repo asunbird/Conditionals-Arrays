@@ -38,7 +38,16 @@ console.log(compareNumbers(3, 7));   // Output: a is less than b
 console.log(compareNumbers(4, 4));   // Output: a is equal to b
 
 // Exercise - 4.
+function checkAge(age) {
+    if (age < 18) {
+        console.log("Minor");
+    } else {
+        console.log("Adult");
+    }
+    }
 
+checkAge(16); // Output: Minor
+checkAge(21); // Output: Adult
 
 // Exercise - 5.
 
