@@ -21,10 +21,24 @@ function compareWithStrictEquality(a, b) {
 }
 
 console.log(compareWithStrictEquality(5, "5"));  // Output: Not strictly equal
+console.log(compareWithStrictEquality(5, 5));  // Output: Strictly equal
 
 // Exercise - 3.
+function compareNumbers(a, b) {
+    if (a > b) {
+        return "a is greater than b";
+    } else if (a < b) {
+        return "a is less than b";
+    } else if (a === b) {
+        return "a is equal to b";
+    }
+}
+console.log(compareNumbers(10, 5));  // Output: a is greater than b
+console.log(compareNumbers(3, 7));   // Output: a is less than b
+console.log(compareNumbers(4, 4));   // Output: a is equal to b
 
 // Exercise - 4.
+
 
 // Exercise - 5.
 
