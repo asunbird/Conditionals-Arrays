@@ -106,8 +106,8 @@ console.log(menuItems);
 
 // Exercise - 9.
 const restaurantMenu = [
-    ["pizza", "beef ", "salad ", "soup"],
-    ["cookies ", "cheescake ", "ice-cream"],
+    ["pizza", "beef", "salad", "soup"],
+    ["cookies", "cheescake", "ice-cream"],
 ];
 // Function to print main dishes and desserts with formatting
 function printMenu1(restaurantMenumenu) {
@@ -137,8 +137,8 @@ printMenu2(restaurantMenu[1]);
 
 // Exercise - 10. Accessing specific items in a 2D array
 const restaurantMenuItems = [
-    ["pizza", "beef ", "salad ", "soup", "hummus"],
-    ["cookies ", "cheescake ", "ice-cream", "brownie"],
+    ["pizza", "beef", "salad", "soup", "hummus"],
+    ["cookies", "cheescake", "ice-cream", "brownie"],
 ];
 console.log(restaurantMenuItems[0][0]); // Output: pizza
 console.log(restaurantMenuItems[1][2]); // Output: ice-cream
