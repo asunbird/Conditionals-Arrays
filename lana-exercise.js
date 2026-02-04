@@ -151,6 +151,11 @@ console.log(restaurantMenuItems);
 
 
 // Exercise - 12.
+let removedItem = "";
+removedItem = restaurantMenuItems.pop();
+console.log(removedItem);
+
+
 
 
 // Exercise - 13.
