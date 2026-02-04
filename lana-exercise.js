@@ -50,6 +50,21 @@ checkAge(16); // Output: Minor
 checkAge(21); // Output: Adult
 
 // Exercise - 5.
+function gradeScore(score) {
+    if (score >= 90) {
+        return "Excellent";
+    } else if (score >= 70) {
+        return "Good";
+    } else if (score >= 50) {
+        return "Average";
+    } else {
+        return "Fail";
+    }
+}
+console.log(gradeScore(95)); // Output: Excellent
+console.log(gradeScore(75)); // Output: Good
+console.log(gradeScore(60)); // Output: Average
+console.log(gradeScore(40)); // Output: Fail
 
 // Exercise - 6.
 
