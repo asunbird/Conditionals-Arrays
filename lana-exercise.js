@@ -145,9 +145,13 @@ console.log(restaurantMenuItems[1][2]); // Output: ice-cream
 
 
 // Exercise - 11.
+restaurantMenuItems.push(["cream soup"]);
+console.log(restaurantMenuItems); 
+// Output: [[ 'pizza', 'beef ', 'salad ', 'soup' ], [ 'cookies ', 'cheescake ', 'ice-cream' ], [ 'cream soup' ]]
 
 
 // Exercise - 12.
+
 
 // Exercise - 13.
 
