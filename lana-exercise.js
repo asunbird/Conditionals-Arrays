@@ -7,13 +7,8 @@ function compareWithEquality(a, b) {
     }
 }
 
-compareWithEquality(5, "5"); 
 console.log(compareWithEquality(5, "5")); // Output: Equal
-
-compareWithEquality(10, 10); 
 console.log(compareWithEquality(10, 10));  // Output: Equal
-
-compareWithEquality(3, 7); 
 console.log(compareWithEquality(3, 7));  // Output: Not equal
 
 // Exercise - 2.
@@ -24,7 +19,7 @@ function compareWithStrictEquality(a, b) {
         return "Not strictly equal";
     }
 }
-compareWithStrictEquality(5, "5");
+
 console.log(compareWithStrictEquality(5, "5"));  // Output: Not strictly equal
 
 // Exercise - 3.
