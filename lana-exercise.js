@@ -105,6 +105,32 @@ let menuItems = ["beef_kebab", "roast_chicken", "rice", "salad"];
 console.log(menuItems);
 
 // Exercise - 9.
+const restaurantMenu = [
+    ["pizza", "beef ", "salad ", "soup"],
+    ["cookies ", "cheescake ", "ice-cream"],
+];
+// Function to print main dishes and desserts with formatting
+function printMenu1(restaurantMenumenu) {
+    let arrayContent = "Main dishes: ";
+    let comma = ", ";
+    let space = " ";
+    for (let i = 0; i < restaurantMenu[0].length; i++) {
+        arrayContent = arrayContent + restaurantMenumenu[i] + comma + space;
+    }
+    console.log(arrayContent);
+  }
+printMenu1(restaurantMenu[0]);
+
+function printMenu2(restaurantMenumenu) {
+    arrayContent = "Desserts: ";
+    let comma = ", ";
+    space = " ";
+    for (let j = 0; j < restaurantMenu[1].length; j++) {
+        arrayContent = arrayContent + restaurantMenumenu[j] + comma + space;
+  }
+    console.log(arrayContent);
+}
+printMenu2(restaurantMenu[1]);
 
 
 // Exercise - 10.
@@ -118,3 +144,5 @@ console.log(menuItems);
 // Exercise - 13.
 
 // Exercise - 14.
+
+// ...
